@@ -1,35 +1,10 @@
 .footer {
-  box-shadow: 0 0 1px #000;
-  background-color: rgb(254, 253, 255);
-
-  flex: 0 0 auto;
+  box-shadow: 0 0 1px var(--color-2);
+  background-color: var(--color-3);
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer-nav-list {
-  display: flex;
-  gap: 20px;
-}
-
-.footer-logo {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.footer-nav-list a {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.footer-user {
-  width: 35px;
-  height: 35px;
-  border-radius: 100%;
-
-  background: #000;
 }
