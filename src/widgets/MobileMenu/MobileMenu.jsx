@@ -1,6 +1,6 @@
 import { Container } from 'components';
 import css from './MobileMenu.module.css';
-import Nav from 'components/Nav/Nav';
+import Nav from 'widgets/Nav/Nav';
 import { useCallback, useEffect } from 'react';
 import PropTypes from 'prop-types';
 

@@ -1,5 +1,5 @@
 import css from './MobileMenuButton.module.css';
-import MobileMenu from 'components/MobileMenu/MobileMenu';
+import MobileMenu from 'widgets/MobileMenu/MobileMenu';
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
 

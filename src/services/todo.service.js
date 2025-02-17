@@ -1,6 +1,6 @@
-import API from './API';
+import { API } from 'classes';
 
-export default class TodoAPI extends API {
+class TodoAPI extends API {
   constructor() {
     super({
       baseURL: 'https://jsonplaceholder.typicode.com/',
@@ -12,3 +12,7 @@ export default class TodoAPI extends API {
     return this.fetch({ api: 'todos' });
   };
 }
+
+const todoService = new TodoAPI();
+
+export default todoService;

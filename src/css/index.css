@@ -1,5 +1,5 @@
-@import url("./css/reset-normolize.css");
-@import url("./css/variables.css");
+@import url("./reset-normolize.css");
+@import url("./variables.css");
 
 body{
   background-color: var(--color-1);

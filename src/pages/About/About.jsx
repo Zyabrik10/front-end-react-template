@@ -1,10 +1,10 @@
-import { Container, SectionTitle } from "components";
+import { Container } from "components";
 
 export default function About() {
   return (
     <Container type="section">
       <Container>
-        <SectionTitle>About</SectionTitle>
+        <h2>About</h2>
         <p>About page</p>
       </Container>
     </Container>

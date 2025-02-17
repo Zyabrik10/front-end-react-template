@@ -1,8 +1,7 @@
-import Container from 'components/Container/Container';
-import css from './Header.module.css';
-import { Logo } from 'components';
-import Nav from '../Nav/Nav';
+import { Container, Logo } from 'components';
+import { Nav } from 'widgets';
 import Other from './Other/Other';
+import css from './Header.module.css';
 
 export default function Header() {
   return (
